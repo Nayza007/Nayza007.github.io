@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <title>Education</title>
+    <style>
+        html {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .head_text {
+            margin-inline: 3%;
+        }
+
+        .container_form {
+            border: 1px solid black;
+            width: 800px;
+            margin-inline: 5%;
+        }
+
+        .container_box {
+            padding: 50px 20px 30px 40px;
+        }
+
+        .box_input input {
+            width: 80%;
+            margin-bottom: 20px;
+            height: 30%;
+        }
+
+        .box_input textarea {
+            height: 300px;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        .box_input select {
+            width: 80%;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <nav>
+        <a href="./index.html">Home |</a>
+        <a href="./education.html">Education |</a>
+        <a href="./work.html">Work Experience |</a>
+        <a href="#">Contact Me |</a>
+    </nav>
+    <hr>
+
+    <h1 class="head_text">Contact Me</h1>
+    <div class="container_form">
+        <div class="container_box">
+            <h3>Enter your info</h3>
+            <form action="">
+                <div class="box_input">
+                    <section>Your Name</section>
+                    <label for="Yname"></label>
+                    <input type="text" id="Yname" name="Yname">
+                </div>
+
+                <div class="box_input">
+                    <section>Your email</section>
+                    <label for="Yemail"></label>
+                    <input type="text" id="Yemail" name="Yemail">
+                </div>
+
+                <div class="box_input">
+                    <section>Gender</section>
+                    <label for="gender"></label>
+                    <select name="gender" id="gender">
+                        <option value="">Select..</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                <div class="box_input">
+                    <section>Message</section>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="box_send">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
